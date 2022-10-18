@@ -1,10 +1,10 @@
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-/**
- * @author aabbasimoghadd00
- * Creating our parent GeometricShape abstract class so that subclasses would be able to inherit the methods and attributes
- */
+	/**
+	 * @author aabbasimoghadd00
+	 * Creating our parent GeometricShape abstract class so that subclasses would be able to inherit the methods and attributes
+	 */
 	public abstract class GeometricShape implements Comparable<GeometricShape>{
 		private Color color;
 		private boolean filledOrNot;
